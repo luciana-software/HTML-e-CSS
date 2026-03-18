@@ -1,0 +1,91 @@
+  * {
+    margin: 0;   
+}
+
+body {
+    background-image: url(bg.png);
+    margin: 0;
+    padding: 0;
+    align-items: center;     
+}
+
+header {
+    background-color: #5b046b;
+    margin: auto;
+    padding: auto;
+    height: 200px;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block; 
+    color: rgb(144, 133, 159);
+}
+
+.nav-menu {
+    text-align: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
+    gap: 15px;
+    
+}
+
+h1, h2, h4, {
+    margin: 0px;
+}
+
+button {
+    margin: 0px;
+
+}
+
+p {
+    margin:0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(144, 133, 159);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+h2 {
+    text-align: center;
+    color: rgb(144, 133, 159);
+    font-family: monospace;
+    font-size: 25px;
+    text-transform: inherit;
+    padding: auto;
+}
+
+.boxProduto {
+    display: flex;
+    align-items: center;
+    background-color: #5b046b;
+    padding: 10px;
+    border-radius: 10px;      
+    max-width: 1500px;
+    gap: 30px;                
+    color: rgb(21, 1, 22);    
+}
+
+.redes {
+  text-align: center;
+}
+
+.redes img {
+  width: 50px;
+  margin: 10px;
+}
+
+
